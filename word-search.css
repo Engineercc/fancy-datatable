@@ -1,0 +1,119 @@
+body {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.word-table-collapse {
+  max-height: 900px;
+  overflow-y: auto;
+  box-shadow: 0px 2px 18px rgb(0 0 0 / 53%);
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.word-table-collapse tbody tr {
+  border-radius: 5px !important;
+  transition: all .2s ease-in-out;
+}
+
+.tbody-bg {
+  background-color: transparent;
+}
+
+.word-table-collapse tbody tr:hover {
+  background-color: #1e2f37 !important;
+  transition: all .2s ease-in-out;
+  color: #fff;
+}
+
+.table-words {
+  width: 100%;
+  max-width: 100%;
+  margin-bottom: 1rem;
+  box-shadow: 0px 2px 18px rgb(0 0 0 / 53%);
+  padding: 3px;
+  border-radius: 5px;
+  border-spacing: 5px !important;
+  margin-bottom: 0 !important;
+}
+
+.table-words td {
+  border: 1px solid #c7c7c7 !important;
+  border-radius: 5px;
+  padding: 0.5rem !important;
+}
+
+.table-seperated {
+  border-collapse: separate;
+}
+
+.table-words .thead-dark th {
+  color: #fff;
+  background: #0b4862 !important;
+  border-color: #0b4862 !important;
+  border-radius: 5px;
+  border: none !important;
+}
+
+
+button {
+  border-radius: 5px !important;
+}
+
+.page-item.active .page-link {
+  background-color: #136f96 !important;
+  border-radius: 2px;
+}
+
+button.dt-button.active:not(.disabled):hover:not(.disabled) {
+  background-color: #1e2f37 !important;
+  transition: all .2s ease-in-out;
+  color: #fff;
+}
+
+.dt-buttons-header {
+  padding: 10px;
+  border-radius: 3px;
+  box-shadow: 1px -2px 8px rgb(0 0 0 / 53%);
+  margin-right: 1.5rem !important;
+}
+
+div.dt-button-collection button.dt-button:active:not(.disabled),
+div.dt-button-collection button.dt-button.active:not(.disabled),
+div.dt-button-collection div.dt-button:active:not(.disabled),
+div.dt-button-collection div.dt-button.active:not(.disabled),
+div.dt-button-collection a.dt-button:active:not(.disabled),
+div.dt-button-collection a.dt-button.active:not(.disabled) {
+  background: #4f4f4fa8 !important;
+}
+
+button.dt-button:hover {
+  background-color: #1e2f37 !important;
+  transition: all .2s ease-in-out;
+  color: #fff;
+}
+
+.datatable-filter-style {
+  display: flex;
+  justify-content: flex-end;
+  border-radius: 3px;
+  box-shadow: 1px -2px 8px rgb(0 0 0 / 53%);
+}
+
+.label-style {
+  margin-bottom: 4px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.word-table-header {
+  text-align: center;
+  padding-bottom: 5px;
+  border-bottom: 2px solid #136f96;
+  width: 95%;
+}
+
+
+.word-table-header span span {
+  color: #136f96;
+}
